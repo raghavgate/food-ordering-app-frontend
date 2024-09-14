@@ -34,7 +34,7 @@ type Props = {
   isLoading: boolean;
   currentUser: User;
   title?: string;
-  buttonText: string;
+  buttonText?: string;
 };
 
 const UserProfileForm = ({
